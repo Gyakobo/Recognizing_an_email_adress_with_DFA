@@ -1,6 +1,5 @@
 import sys
 
-
 # La roche-posay
 
 print("""Project 1 for CS 341
