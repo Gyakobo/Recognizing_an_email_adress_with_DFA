@@ -206,6 +206,7 @@ def q1_78(string):
         
         print("Alphabet is in trap state")
 
+
 n = int(input("Please enter number of iterations: "))
 
 # This block of code iterates through every letter in the string and runs them through the state machine
