@@ -203,7 +203,8 @@ def q1_78(string):
         string = string[1:]
         for i in string:
             print(f'{string[0]}: Q10')
-        
+
+
         print("Alphabet is in trap state")
 
 
