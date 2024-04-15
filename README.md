@@ -4,6 +4,7 @@ $$
 \documentclass[12pt]{article}
 \usepackage{tikz}
 
+
 \begin{document}
     \begin{center}
         \begin{tikzpicture}[scale=0.2]
