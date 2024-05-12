@@ -14,10 +14,10 @@
 
 * Let's now fully 'L', so $L = S_{1}S_{2}^* \phi S_{1}S_{2}^*(S_{3} \cup S_{4})$, where: 
 
-    * $ S_{1} = \psi \psi^* $ (numbers of at least length 1)
-    * $ S_{2} = \pi \psi \psi^* $ (strings of $ S_{1} $ beginning with a dot)
-    * $ S_{3} $ = {.gov} (valid enging for email adress)
-    * $ S_{4} $ = {.gr} (valid enging for email adress)
+    * $S_{1} = \psi \psi^*$ (numbers of at least length 1)
+    * $S_{2} = \pi \psi \psi^*$ (strings of $S_{1}$ beginning with a dot)
+    * $S_{3}$ = {.gov} (valid enging for email adress)
+    * $S_{4}$ = {.gr} (valid enging for email adress)
 
 * Delving more into discrete math, language 'L' is a regular language and as later on proved there exists a DFA which recognizes said regular language. 
 
