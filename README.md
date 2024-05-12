@@ -24,9 +24,9 @@
 ## Deterministic Finite Automaton(DFA) M for Language L
 5-Tuple Definition for $ M = (Q, \Sigma, \delta, Q_{1}, F) $
 
-* $ Q = \{ Q_{1}, Q_{2}, Q_{3}, Q_{4}, Q_{5}, Q_{6}, Q_{7}, Q_{8}, Q_{9}, Q_{10} \} $
-* $ \Sigma = \psi \cup \pi \cup \phi $
-* $ \delta: Q × \Sigma \rightarrow Q $
+* $Q = \{ Q_{1}, Q_{2}, Q_{3}, Q_{4}, Q_{5}, Q_{6}, Q_{7}, Q_{8}, Q_{9}, Q_{10} \}$
+* $\Sigma = \psi \cup \pi \cup \phi$
+* $\delta: Q × \Sigma \rightarrow Q$
 
 | Q | $\psi-\{o,r,g,v\}$ | $\pi$ | $phi$| o | r | g | v |
 |---|---|---|---|---|---|---|---|
@@ -49,4 +49,4 @@
 <img src="./assets/dfa_img.png" style="float: left; margin-right: 10px;">
 
 ## License:
-MI
+MIT
