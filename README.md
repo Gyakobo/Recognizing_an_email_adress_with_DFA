@@ -22,23 +22,23 @@
 * Delving more into discrete math, language 'L' is a regular language and as later on proved there exists a DFA which recognizes said regular language. 
 
 ## Deterministic Finite Automaton(DFA) M for Language L
-5-Tuple Definition for $ M = (Q, \Sigma, \delta, Q_{1}, F) $
+5-Tuple Definition for $M = (Q, \Sigma, \delta, Q_{1}, F)$
 
 * $Q = \{ Q_{1}, Q_{2}, Q_{3}, Q_{4}, Q_{5}, Q_{6}, Q_{7}, Q_{8}, Q_{9}, Q_{10} \}$
 * $\Sigma = \psi \cup \pi \cup \phi$
 * $\delta: Q × \Sigma \rightarrow Q$
 
 | Q | $\psi-\{o,r,g,v\}$ | $\pi$ | $phi$| o | r | g | v |
-|---|---|---|---|---|---|---|---|
-| Q1  | Q2 | Q10 |   |   |   |   |  
-| Q2  | Q2 | Q1 |   |   |   |   |
-| Q3  | Q4 | Q10 |   |   |   |   |
-| Q4  | Q4 | Q5 |   |   |   |   |
-| Q5  | Q4 | Q10 |   |   |   |   |
-| Q6  | Q4 | Q5 |   |   |   |   |
-| Q7  | Q4 | Q5 |   |   |   |   |
-| Q8  | Q4 | Q4 |   |   |   |   |
-| Q9  | Q4 | Q5  |   |   |   |   |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Q1  | Q2 | Q10 | Q10 | Q2 | Q2 | Q2 | Q2 | 
+| Q2  | Q2 | Q1 | Q3 |  Q2 |  Q2 | Q2 | Q2 |
+| Q3  | Q4 | Q10 | Q10 | Q4 | Q4 | Q4 | Q4 |
+| Q4  | Q4 | Q5 | Q10 | Q4 | Q4 | Q4 | Q4 |
+| Q5  | Q4 | Q10 | Q10 | Q4 | Q4 | Q6 | Q4 |
+| Q6  | Q4 | Q5 | Q10 | Q7 | Q8 | Q4 | Q4 |
+| Q7  | Q4 | Q5 | Q10 | Q4 | Q4 | Q4 | Q9 |
+| Q8  | Q4 | Q4 | Q10 | Q4 | Q4 | Q4 | Q4 |
+| Q9  | Q4 | Q5  | Q10 | Q4 | Q4 | Q4 | Q4 |
 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 |   
 
 
