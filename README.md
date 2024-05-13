@@ -49,7 +49,7 @@
 
 > Note: Please note that the state "Q10" is a trap state for non-specified edges
 
-<img src="./assets/dfa_img.png" style="float: left; margin-bottom: 20px;">
+<img src="./assets/dfa_img.png" style="float: left; margin-bottom: 1rem;">
 
 ### Here is a sample example with the word "tuv@wxyz.gr"
 
