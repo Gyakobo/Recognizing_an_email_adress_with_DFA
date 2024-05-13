@@ -8,7 +8,7 @@
 ## In-depth analysis of 'L'
 * Given the Lanaguage "L", it is defined over an alphabet $\Sigma$, also defined as $\Sigma = \psi \cup \pi \cup \phi$
 
-    * $\psi$ = {a, b, ..., z} 
+    * $\psi$ = { a, b, ..., z } 
     * $\pi$ = {.} 
     * $\phi$ = {@} 
 
@@ -24,11 +24,11 @@
 ## Deterministic Finite Automaton(DFA) M for Language L
 5-Tuple Definition for $M = (Q, \Sigma, \delta, Q_{1}, F)$
 
-* $Q = \{ Q_{1}, Q_{2}, Q_{3}, Q_{4}, Q_{5}, Q_{6}, Q_{7}, Q_{8}, Q_{9}, Q_{10} \}$
+* Q = { $Q_{1}, Q_{2}, Q_{3}, Q_{4}, Q_{5}, Q_{6}, Q_{7}, Q_{8}, Q_{9}, Q_{10}$ }
 * $\Sigma = \psi \cup \pi \cup \phi$
 * $\delta: Q × \Sigma \rightarrow Q$
 
-| Q | $\psi-\{o,r,g,v\}$ | $\pi$ | $phi$| o | r | g | v |
+| Q | $\psi-\{o,r,g,v\}$ | $\pi$ | $\phi$| o | r | g | v |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Q1  | Q2 | Q10 | Q10 | Q2 | Q2 | Q2 | Q2 | 
 | Q2  | Q2 | Q1 | Q3 |  Q2 |  Q2 | Q2 | Q2 |
@@ -41,12 +41,34 @@
 | Q9  | Q4 | Q5  | Q10 | Q4 | Q4 | Q4 | Q4 |
 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 | Q10 |   
 
+* $Q_{1}$ - start state
+
+* F = {$q_{8}, q_{9}$} - set of accepting states
 
 ## Drawing the DFA M 
 
 > Note: Please note that the state "Q10" is a trap state for non-specified edges
 
-<img src="./assets/dfa_img.png" style="float: left; margin-right: 10px;">
+<img src="./assets/dfa_img.png" style="float: left; margin-bottom: 20px;">
+
+### Here is a sample example with the word "tuv@wxyz.gr"
+
+```
+Enter string 1 of 20: tuv@wxyz.gr
+Starting on State Q1
+t: Q2
+u: Q2
+v: Q2
+@: Q3
+w: Q3
+x: Q4
+y: Q4
+z: Q4
+.: Q5
+g: Q6
+r: Q8
+Success
+```
 
 ## License:
 MIT
