@@ -2,12 +2,6 @@ import sys
 
 # La roche-posay
 
-print("""Project 1 for CS 341
-Section number: 010
-Semester: Spring 2024
-Written by: Andrew Gyakobo, ag78 
-Instructor: Marvin Nakayama, marvin@njit.edu\n""", flush=True)
-
 # Main Program
 psi = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 pi = ['.']
