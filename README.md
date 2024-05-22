@@ -45,7 +45,7 @@
 
 * F = {$q_{8}, q_{9}$} - set of accepting states
 
-## Drawing the DFA M 
+## Drawing the DFA 'M' 
 
 > [!Note] 
 >Please note that the state "Q10" is a trap state for non-specified edges
