@@ -12,7 +12,7 @@
     * $\pi$ = {.} 
     * $\phi$ = {@} 
 
-* Let's now fully 'L', so $L = S_{1}S_{2}^* \phi S_{1}S_{2}^*(S_{3} \cup S_{4})$, where: 
+* Let's now fully define Language 'L', thus $L = S_{1}S_{2}^* \phi S_{1}S_{2}^*(S_{3} \cup S_{4})$, where: 
 
     * $S_{1} = \psi \psi^*$ (numbers of at least length 1)
     * $S_{2} = \pi \psi \psi^*$ (strings of $S_{1}$ beginning with a dot)
@@ -45,7 +45,7 @@
 
 * F = {$q_{8}, q_{9}$} - set of accepting states
 
-## Drawing the DFA M 
+## Drawing the DFA 'M' 
 
 > [!Note] 
 >Please note that the state "Q10" is a trap state for non-specified edges
