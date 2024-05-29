@@ -3,7 +3,7 @@
 #### Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 ## Intro
-* The following example is meant to demonstrate how a Deterministic Finite Automata(DFA) algorithm is supposed to guide identify whether a string is an email adress ending with **.gov** or **.gr**. The source file [dfa.py](https://github.com/Gyakobo/Recognizing_an_email_adress_with_DFA/blob/main/dfa.py) would serve as a demonstration of the aforementioned algorithm.
+The following example is meant to demonstrate how a Deterministic Finite Automata(DFA) algorithm is supposed to guide identify whether a string is an email adress ending with **.gov** or **.gr**. The source file [dfa.py](https://github.com/Gyakobo/Recognizing_an_email_adress_with_DFA/blob/main/dfa.py) would serve as a demonstration of the aforementioned algorithm.
 
 ## In-depth analysis of 'L'
 * Given the Lanaguage "L", it is defined over an alphabet $\Sigma$, also defined as $\Sigma = \psi \cup \pi \cup \phi$
