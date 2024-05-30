@@ -1,6 +1,8 @@
 # DFA illustration
 
-#### Author: [Andrew Gyakobo](https://github.com/Gyakobo)
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 ## Intro
 The following example is meant to demonstrate how a Deterministic Finite Automata(DFA) algorithm is supposed to guide identify whether a string is an email adress ending with **.gov** or **.gr**. The source file [dfa.py](https://github.com/Gyakobo/Recognizing_an_email_adress_with_DFA/blob/main/dfa.py) would serve as a demonstration of the aforementioned algorithm.
