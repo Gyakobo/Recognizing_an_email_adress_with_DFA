@@ -46,7 +46,7 @@ The following example is meant to demonstrate how a Deterministic Finite Automat
 
 * $Q_{1}$ - start state
 
-* F = ${q_{8}, q_{9}}$ - set of accepting states
+* F = { $q_{8}, q_{9}$ } - set of accepting states
 
 ## Drawing the DFA 'M' 
 
